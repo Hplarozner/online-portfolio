@@ -2,7 +2,6 @@ import { Image } from "@heroui/react";
 import { motion } from "framer-motion"; 
 import { Link } from "@heroui/link";
 import { Button } from "@heroui/button";
-
 export const Hero = () => {
   return (
     <section className="flex flex-col-reverse md:flex-row items-center justify-center gap-10 px-6 md:px-16 py-12 md:py-20">
@@ -27,7 +26,10 @@ export const Hero = () => {
               className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg"
               radius="full"
             >
-              Download CV
+              <a href="/ralph-portfolio.pdf" download>
+                Download CV
+              </a>
+              
             </Button>
             <Button>
               <Link href="/projects">View Projects</Link>
