@@ -32,7 +32,7 @@ export const Hero = () => {
               
             </Button>
             <Button>
-              <Link href="/projects">View Projects</Link>
+              <Link href="/project">View Projects</Link>
             </Button>
           </div>
       </motion.div>
