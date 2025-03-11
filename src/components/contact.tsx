@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Input, Textarea, Button, Card } from "@heroui/react";
 import Swal from 'sweetalert2'

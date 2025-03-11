@@ -1,4 +1,4 @@
-import { Card, CardHeader, CardBody, Divider, Link } from "@heroui/react";
+import { Card, CardHeader, CardBody } from "@heroui/react";
 import { projects } from "@/config/project";
 import { motion } from "framer-motion";
 
@@ -58,16 +58,6 @@ export const Projects = () => {
                         </span>
                       ))}
                     </div>
-
-                    {/* <Divider className="my-2" />
-                    <div className="flex justify-center">
-                      <Link
-                        href={item.link}
-                        className="text-primary hover:text-primary-dark transition-colors duration-300 font-semibold"
-                      >
-                        View Project
-                      </Link>
-                    </div> */}
                   </div>
                 </CardBody>
               </Card>

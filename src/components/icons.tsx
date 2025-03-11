@@ -88,7 +88,7 @@ export const GithubIcon: React.FC<IconSvgProps> = ({
   );
 };
 
-export const MoonFilledIcon = (props) => {
+export const MoonFilledIcon = (props: any) => {
   return (
     <svg
       aria-hidden="true"
@@ -107,7 +107,7 @@ export const MoonFilledIcon = (props) => {
   );
 };
 
-export const SunFilledIcon = (props) => {
+export const SunFilledIcon = (props: any) => {
   return (
     <svg
       aria-hidden="true"

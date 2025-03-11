@@ -8,18 +8,17 @@ import { Projects } from "@/components/project";
 import { Contact } from "@/components/contact";
 
 export default function IndexPage() {
-  const aboutRef = useRef(null);
-  const projectRef = useRef(null);
-  const contactRef = useRef(null);
+  const aboutRef = useRef<HTMLDivElement>(null);
+  const projectRef = useRef<HTMLDivElement>(null);
+  const contactRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
 
-  // Scroll to About section when URL changes
   useEffect(() => {
     if (location.pathname === "/about" && aboutRef.current) {
       aboutRef.current.scrollIntoView({ behavior: "smooth" });
-    } else if (location.pathname === "/project" && projectRef.current){
+    } else if (location.pathname === "/project" && projectRef.current) {
       projectRef.current.scrollIntoView({ behavior: "smooth" });
-    } else if (location.pathname === "/contact" && contactRef.current){
+    } else if (location.pathname === "/contact" && contactRef.current) {
       contactRef.current.scrollIntoView({ behavior: "smooth" });
     }
   }, [location]);

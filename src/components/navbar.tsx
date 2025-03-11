@@ -8,10 +8,8 @@ import {
   NavbarMenu,
   NavbarMenuItem,
 } from "@heroui/navbar";
-import { Tooltip } from "@heroui/react";
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-import { Logo } from "@/components/icons";
 import { useState } from "react";
 import 'primeicons/primeicons.css';
  
@@ -23,7 +21,6 @@ export const Navbar = () => {
       <NavbarContent>
         <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} className="sm:hidden"/>
         <NavbarBrand>
-          {/* <Logo/>  */}
           <p className="font-bold text-inherit">Ralph Renzo </p>
         </NavbarBrand>
       </NavbarContent>
