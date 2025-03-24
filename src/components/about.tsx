@@ -27,8 +27,7 @@ export const About = () => {
             <p className="mt-4">
               I'm passionate about <span className="text-blue-600 dark:text-indigo-400 hover:text-blue-500 dark:hover:text-indigo-300 transition-colors duration-300">
               clean code</span>, <span className="text-blue-600 dark:text-indigo-400 hover:text-blue-500 dark:hover:text-indigo-300 transition-colors duration-300">
-              performance optimization</span>, and creating intuitive user interfaces. When I'm not coding, 
-              you can find me contributing to open-source projects and sharing knowledge with the developer community.
+              performance optimization</span>, and creating intuitive user interfaces. 
             </p>
           </div>
 
